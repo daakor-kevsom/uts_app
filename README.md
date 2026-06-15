@@ -1,16 +1,68 @@
-# uts_app
+# UTS App
 
-A new Flutter project.
+Application mobile développée avec Flutter dans le cadre d'un projet académique visant à présenter l'Université Thomas Sankara (UTS) à travers une interface moderne et intuitive.
 
-## Getting Started
+## Présentation
 
-This project is a starting point for a Flutter application.
+UTS App est une application mobile permettant d'accéder à des informations relatives à l'Université Thomas Sankara. Le projet a été réalisé dans le cadre d'une évaluation pratique afin de mettre en œuvre les compétences acquises en développement mobile avec Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+## Fonctionnalités
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Présentation de l'université
+* Navigation entre différentes sections de l'application
+* Interface utilisateur responsive
+* Gestion des ressources multimédias (images)
+* Compatibilité Android
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies utilisées
+
+* Flutter
+* Dart
+* Material Design
+
+## Structure du projet
+
+```text
+lib/                Code source principal
+assets/images/      Ressources graphiques
+android/            Configuration Android
+ios/                Configuration iOS
+web/                Version Web
+linux/              Configuration Linux
+windows/            Configuration Windows
+macos/              Configuration macOS
+```
+
+## Installation
+
+1. Cloner le dépôt
+
+```bash
+git clone https://github.com/daakor-kevsom/uts_app.git
+```
+
+2. Accéder au projet
+
+```bash
+cd uts_app
+```
+
+3. Installer les dépendances
+
+```bash
+flutter pub get
+```
+
+4. Lancer l'application
+
+```bash
+flutter run
+```
+
+## Auteur
+
+**Daakor Guy Kévin SOME**
+
+Ingénieur des travaux informatiques
+
+Ouagadougou, Burkina Faso
